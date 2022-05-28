@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ActivityResult">
         <activity
+            android:name=".ThirdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".thirdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".imagePicker"
+            android:exported="false" />
+        <activity
             android:name=".ActivitySecond"
             android:exported="false" />
         <activity
